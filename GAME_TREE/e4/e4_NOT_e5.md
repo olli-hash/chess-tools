@@ -1,2 +1,2 @@
 
-# All Ganes with 1.e4 and NOT ...e5
+# All Games with 1.e4 and NOT ...e5
