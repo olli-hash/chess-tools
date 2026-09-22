@@ -1,6 +1,6 @@
 LINE_ROOT="$HOME/schachdb"
 
-mark_prefix=$'\e[1;38;5;34;48;5;208m'
+mark_prefix=$'\e[1;38;5;129;48;5;208m'
 mark_suffix=$'\e[0m'
 
 bold_prefix=$'\e[1m'
@@ -354,5 +354,6 @@ reflect() {
 
 
 set-line-focus
+
 
 
