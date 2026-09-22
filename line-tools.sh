@@ -1,6 +1,6 @@
 LINE_ROOT="$HOME/schachdb"
 
-mark_prefix=$'\e[1;48;5;208m'
+mark_prefix=$'\e[1;38;5;34;48;5;208m'
 mark_suffix=$'\e[0m'
 
 bold_prefix=$'\e[1m'
@@ -347,10 +347,6 @@ reflect() {
     touch "$path"
     { xdg-open "$path" >/dev/null 2>&1 & disown; } 2>/dev/null
 }
-
-
-
-
 
 
 
