@@ -122,7 +122,7 @@ line-view() {
 
         if ((i + 1 == line_focus_index)); then
             #output+=$'\e[1m'"$move"$'\e[0m'
-            output+="${mark_prefix}${move}${mark_suffix}"
+            output+="${mark_prefix} ${move} ${mark_suffix}"
         else
             output+="$move"
         fi
